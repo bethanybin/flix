@@ -11,6 +11,7 @@ import AlamofireImage
 
 class NowPlayingViewController: UIViewController, UITableViewDataSource {
 
+    @IBOutlet weak var activityIndicator: UIActivityIndicatorView!
     @IBOutlet weak var tableView: UITableView!
     var movies: [[String: Any]] = []
     var refreshControl: UIRefreshControl!
@@ -25,7 +26,9 @@ class NowPlayingViewController: UIViewController, UITableViewDataSource {
         fetchMovies()
     }
     @objc func didPullToRefresh(_ refreshControl: UIRefreshControl){
+        self.activityIndicator.startAnimating()
         fetchMovies()
+        self.activityIndicator.stopAnimating()
     }
     func fetchMovies(){
         let url = URL(string: "https://api.themoviedb.org/3/movie/now_playing?api_key=a07e22bc18f5cb106bfe4cc1f83ad8ed")!
