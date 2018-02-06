@@ -1,6 +1,6 @@
-# Project 1 - *FlixDemo*
+# Project 1 - FlixDemo
 
-**Name of your app** is a movies app using the [The Movie Database API](http://docs.themoviedb.apiary.io/#).
+FlixDemo is a movies app using the [The Movie Database API](http://docs.themoviedb.apiary.io/#).
 
 Time spent: 4 hours spent in total
 
