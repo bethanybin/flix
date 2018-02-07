@@ -23,12 +23,19 @@ class NowPlayingViewController: UIViewController, UITableViewDataSource {
         tableView.insertSubview(refreshControl, at: 0)
         tableView.dataSource = self
         self.tableView.rowHeight = 190
-        fetchMovies()
-    }
-    @objc func didPullToRefresh(_ refreshControl: UIRefreshControl){
         self.activityIndicator.startAnimating()
         fetchMovies()
         self.activityIndicator.stopAnimating()
+
+    }
+    @objc func didPullToRefresh(_ refreshControl: UIRefreshControl){
+        self.activityIndicator.startAnimating()
+        DispatchQueue.global(qos: .background).async{
+            self.fetchMovies()
+            DispatchQueue.main.asyncAfter(deadline: .now() + .seconds(1), execute: {
+                self.activityIndicator.stopAnimating()
+            })
+        }
     }
     func fetchMovies(){
         let url = URL(string: "https://api.themoviedb.org/3/movie/now_playing?api_key=a07e22bc18f5cb106bfe4cc1f83ad8ed")!
