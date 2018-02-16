@@ -2,7 +2,7 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "group:/Users/bethanybin/Desktop/Flix/Flix/ViewControllers/DetailViewController.swift">
+      location = "group:/Users/bethanybin/Desktop/iOSProjects/Flix/Flix/ViewControllers/DetailViewController.swift">
    </FileRef>
    <FileRef
       location = "group:Flix.xcodeproj">

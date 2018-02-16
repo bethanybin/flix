@@ -11,6 +11,7 @@
 		5C3CAE0EE3E3E4FAD2E02AB8 /* Pods_Flix.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E16859390995D2439016AE93 /* Pods_Flix.framework */; };
 		CDAE22BDFD2CFD45C897BB89 /* Pods_FlixUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6708D0FFAE97B9F611D5DFB8 /* Pods_FlixUITests.framework */; };
 		F35A47FA202697B300D7A5A1 /* NowPlayingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F35A47F9202697B300D7A5A1 /* NowPlayingViewController.swift */; };
+		F39CA4BD2036AA8700D6607E /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F39CA4BC2036AA8700D6607E /* DetailViewController.swift */; };
 		F3E2C19B20271E8900440A51 /* MovieCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3E2C19A20271E8900440A51 /* MovieCell.swift */; };
 		F3E5D21720214C500098655B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3E5D21620214C500098655B /* AppDelegate.swift */; };
 		F3E5D21920214C500098655B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3E5D21820214C500098655B /* ViewController.swift */; };
@@ -19,7 +20,6 @@
 		F3E5D22120214C500098655B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F3E5D21F20214C500098655B /* LaunchScreen.storyboard */; };
 		F3E5D22C20214C500098655B /* FlixTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3E5D22B20214C500098655B /* FlixTests.swift */; };
 		F3E5D23720214C500098655B /* FlixUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3E5D23620214C500098655B /* FlixUITests.swift */; };
-		F3E65B26202A8376001B85C1 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3E65B25202A8376001B85C1 /* DetailViewController.swift */; };
 		F3E65B28202A8CD9001B85C1 /* PosterCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3E65B27202A8CD9001B85C1 /* PosterCell.swift */; };
 		F3E65B2A202A8D0F001B85C1 /* SuperheroViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3E65B29202A8D0F001B85C1 /* SuperheroViewController.swift */; };
 /* End PBXBuildFile section */
@@ -51,6 +51,7 @@
 		E4BB57FD9D724AC2BB74B385 /* Pods_FlixTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FlixTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E7E24E52A9E854083D7FDB30 /* Pods-FlixUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FlixUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FlixUITests/Pods-FlixUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		F35A47F9202697B300D7A5A1 /* NowPlayingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NowPlayingViewController.swift; sourceTree = "<group>"; };
+		F39CA4BC2036AA8700D6607E /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = DetailViewController.swift; path = /Users/bethanybin/Desktop/iOSProjects/Flix/Flix/ViewControllers/DetailViewController.swift; sourceTree = "<absolute>"; };
 		F3E2C19A20271E8900440A51 /* MovieCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieCell.swift; sourceTree = "<group>"; };
 		F3E5D21320214C500098655B /* Flix.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Flix.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F3E5D21620214C500098655B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -65,7 +66,6 @@
 		F3E5D23220214C500098655B /* FlixUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FlixUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F3E5D23620214C500098655B /* FlixUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlixUITests.swift; sourceTree = "<group>"; };
 		F3E5D23820214C500098655B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		F3E65B25202A8376001B85C1 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = DetailViewController.swift; path = /Users/bethanybin/Desktop/Flix/Flix/ViewControllers/DetailViewController.swift; sourceTree = "<absolute>"; };
 		F3E65B27202A8CD9001B85C1 /* PosterCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PosterCell.swift; sourceTree = "<group>"; };
 		F3E65B29202A8D0F001B85C1 /* SuperheroViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SuperheroViewController.swift; sourceTree = "<group>"; };
 		F657060AD62F6721F5468548 /* Pods-Flix.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Flix.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Flix/Pods-Flix.debug.xcconfig"; sourceTree = "<group>"; };
@@ -179,7 +179,7 @@
 		F3E65B23202A8307001B85C1 /* ViewControllers */ = {
 			isa = PBXGroup;
 			children = (
-				F3E65B25202A8376001B85C1 /* DetailViewController.swift */,
+				F39CA4BC2036AA8700D6607E /* DetailViewController.swift */,
 				F3E5D21820214C500098655B /* ViewController.swift */,
 				F35A47F9202697B300D7A5A1 /* NowPlayingViewController.swift */,
 				F3E65B29202A8D0F001B85C1 /* SuperheroViewController.swift */,
@@ -494,10 +494,10 @@
 				F3E5D21920214C500098655B /* ViewController.swift in Sources */,
 				F35A47FA202697B300D7A5A1 /* NowPlayingViewController.swift in Sources */,
 				F3E65B28202A8CD9001B85C1 /* PosterCell.swift in Sources */,
-				F3E65B26202A8376001B85C1 /* DetailViewController.swift in Sources */,
 				F3E65B2A202A8D0F001B85C1 /* SuperheroViewController.swift in Sources */,
 				F3E2C19B20271E8900440A51 /* MovieCell.swift in Sources */,
 				F3E5D21720214C500098655B /* AppDelegate.swift in Sources */,
+				F39CA4BD2036AA8700D6607E /* DetailViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

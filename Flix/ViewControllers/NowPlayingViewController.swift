@@ -22,7 +22,8 @@ class NowPlayingViewController: UIViewController, UITableViewDataSource {
         refreshControl.addTarget(self, action: #selector(NowPlayingViewController.didPullToRefresh(_:)), for: .valueChanged)
         tableView.insertSubview(refreshControl, at: 0)
         tableView.dataSource = self
-        self.tableView.rowHeight = 190
+        self.tableView.rowHeight = UITableViewAutomaticDimension
+        tableView.estimatedRowHeight = 50
         self.activityIndicator.startAnimating()
         fetchMovies()
         self.activityIndicator.stopAnimating()
